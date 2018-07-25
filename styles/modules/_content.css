@@ -30,6 +30,7 @@
 }
 
 .content__link {
+  text-decoration: none;
 }
 
 .content__image {
