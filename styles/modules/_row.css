@@ -1,0 +1,173 @@
+/* responsive 12 row grid system */
+
+/* Our screen sizes:
+ * - tiny:        everything smaller than "small"
+ * - small:       starting at  640px screen width / 16px base font size = 40em
+ * - medium:      starting at  768px screen width / 16px base font size = 48em
+ * - large:       starting at  1024px screen width / 16px base font size = 64em
+ * - extra-large: starting at  1200px screen width / 16px base font size = 75em
+ *     (or maybe: starting at  1360px screen width / 16px base font size = 85em)
+ * 
+ * "tiny" is our baseline for all screens. We design for this first, then modify for larger and larger screens progressively.
+ */
+
+
+/* clearfix */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row--gapped {
+  margin-right: -1rem;
+}
+
+.row--gapped > div {
+  padding-right: 1rem;
+}
+
+.row--gapped-wide {
+  margin-right: -2rem;
+}
+
+.row--gapped-wide > div {
+  padding-right: 2rem;
+}
+
+
+@media (min-width: 40em) {
+  .row__small-2-columns {
+    float: left;
+    width: 16.66%;
+  }
+
+  .row__small-3-columns {
+    float: left;
+    width: 25%;
+  }
+
+  .row__small-4-columns {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__small-6-columns {
+    float: left;
+    width: 50%;
+  }
+
+  .row__small-8-columns {
+    float: left;
+    width: 66.66%;
+  }
+} 
+
+@media (min-width: 48em) {
+  .row__medium-2-columns {
+    float: left;
+    width: 16.66%;
+  }
+
+  .row__medium-3-columns {
+    float: left;
+    width: 25%;
+  }
+
+  .row__medium-4-columns {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__medium-6-columns {
+    float: left;
+    width: 50%;
+  }
+
+  .row__medium-8-columns {
+    float: left;
+    width: 66.66%;
+  }
+} 
+
+@media (min-width: 64em) {
+  .row__large-2-columns {
+    float: left;
+    width: 16.66%;
+  }
+
+  .row__large-3-columns {
+    float: left;
+    width: 25%;
+  }
+
+  .row__large-4-columns {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__large-6-columns {
+    float: left;
+    width: 50%;
+  }
+
+  .row__large-8-columns {
+    float: left;
+    width: 66.66%;
+  }
+}
+
+@media (min-width: 75em) {
+  .row__extra-large-2-columns {
+    float: left;
+    width: 16.66%;
+  }
+
+  .row__extra-large-3-columns {
+    float: left;
+    width: 25%;
+  }
+
+  .row__extra-large-4-columns {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__extra-large-6-columns {
+    float: left;
+    width: 50%;
+  }
+
+  .row__extra-large-8-columns {
+    float: left;
+    width: 66.66%;
+  }
+}
+
+/* Begin equal height rules */
+
+@media (min-width: 40em) {
+  .row--equal-height-at-small {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row--equal-height-at-small > div {
+    float: none;
+    display: flex;
+  }
+}
+
+@media (min-width: 48em) {
+  .row--equal-height-at-medium {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row--equal-height-at-medium > div {
+    float: none;
+    display: flex;
+  }
+}
+
+/* End equal height rules */
