@@ -8,6 +8,10 @@ body {
   /* background-color: rgba(235, 235, 235, .8); */
 }
 
+a {
+  color: rgba(0, 0, 0, 1.0);
+}
+
 img {
   max-width: 100%;
   height: auto;

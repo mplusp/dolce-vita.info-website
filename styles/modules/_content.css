@@ -2,7 +2,7 @@
 }
 
 .content__heading {
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Open Sans', serif;
   font-size: 2rem;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .content__sub-heading {
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Open Sans', serif;
   font-size: 1.5rem;
 }
 
@@ -30,7 +30,12 @@
 }
 
 .content__link {
-  text-decoration: none;
+}
+
+.content__link-menu {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1.0);
 }
 
 .content__image {
