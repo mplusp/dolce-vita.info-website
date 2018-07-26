@@ -1,6 +1,7 @@
 .background-image {
   /* The image used */
-  background-image: url('../../../images/vespa-1-blurred-cropped-darkened-35p.jpg');
+  /*background-image: url('../../images/vespa-1-blurred-cropped-darkened-35p.jpg');*/
+  background-image: url('../../images/kathryn-cave-634473-unsplash-60p.jpg');
 
   /* Full height */
   height: 100%;
