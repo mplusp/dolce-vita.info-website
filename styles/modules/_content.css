@@ -4,11 +4,11 @@
 .content__heading {
   font-family: 'Open Sans', serif;
   font-size: 2rem;
+  color: rgb(160, 90, 90);
 }
 
 @media (min-width: 48em) {
   .content__heading {
-    color: rgb(160, 90, 90);
     font-size: 2.5rem;
   }
 }
