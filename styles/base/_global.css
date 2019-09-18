@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
+html {
+  background: url('../../images/kathryn-cave-634473-unsplash-scaled-40p-darkened-60p.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
-  background-color: rgb(32, 26, 19);
+  /* background-color: rgb(32, 26, 19); */
 }
 
 a {
@@ -16,3 +23,4 @@ img {
   max-width: 100%;
   height: auto;
 }
+
