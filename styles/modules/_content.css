@@ -33,12 +33,21 @@
 .content__link {
 }
 
+.content__notice__heading {
+  font-family: 'Open Sans', serif;
+  font-size: 1.8rem;
+  color: rgb(180, 0, 0);
+  background-color: rgba(190, 190, 190, .8);
+  padding: 0.5em;
+  border: 1px solid red;
+}
+
 .content__notice {
   text-align: left;
   font-size: 1.5rem;
   font-weight: bold;
-  color: rgb(200, 0, 0);
-  background-color: rgba(190, 190, 190, .7);
+  color: rgb(180, 0, 0);
+  background-color: rgba(190, 190, 190, .8);
   padding: 0.5em;
   border: 1px solid red;
 }
