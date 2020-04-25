@@ -44,7 +44,7 @@
 
 .content__notice {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: rgb(180, 0, 0);
   background-color: rgba(190, 190, 190, .8);
@@ -54,7 +54,7 @@
 
 @media (min-width: 48em) {
   .content__notice {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 
