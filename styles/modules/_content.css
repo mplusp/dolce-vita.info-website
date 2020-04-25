@@ -35,11 +35,17 @@
 
 .content__notice__heading {
   font-family: 'Open Sans', serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: rgb(180, 0, 0);
   background-color: rgba(190, 190, 190, .8);
   padding: 0.5em;
   border: 1px solid red;
+}
+
+@media (min-width: 48em) {
+  .content__notice__heading {
+    font-size: 1.6rem;
+  }
 }
 
 .content__notice {
