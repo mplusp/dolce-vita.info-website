@@ -17,6 +17,11 @@
   font-size: 2.2rem;
 }
 
+.hero__heading2 {
+  font-family: 'Open Sans', serif;
+  font-size: 2.0rem;
+}
+
 @media (min-width: 40em) {
   .hero__heading {
     font-family: 'Open Sans', serif;
