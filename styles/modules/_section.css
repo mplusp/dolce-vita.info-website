@@ -1,9 +1,0 @@
-.section {
-  margin-bottom: 1rem;
-}
-
-.section:nth-child(even) {
-}
-
-.section:nth-child(odd) {
-}
